@@ -1,0 +1,13 @@
+
+$p_color : red;
+$s_color : blue;
+$w_color : yellow;
+
+
+@mixin code{
+    &:after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
